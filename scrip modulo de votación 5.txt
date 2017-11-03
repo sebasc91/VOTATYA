@@ -1,0 +1,85 @@
+﻿<%@ Page Title="Votación" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="VotaYa._Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="jumbotron" align="center">
+        <h1 >Candidatos</h1>
+        <p class="lead">Aquí encontrar la lista de los candidatos seleccionados</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Candidato 1</h2>
+            <p>
+                <img src="User2.png" width="160"
+            </p>
+            <p>
+               Descripción
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 2</h2>
+            <p>
+                <img src="User2.png" width="160"
+            </p>
+            <p>
+                Breve descripción
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 3</h2>
+            <p>
+                <img src="User2.png" width="160"
+            </p>
+            <p>
+                Breve descripción
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 4</h2>
+            <p>
+                <img src="User2.png" width="160"
+            </p>
+            <p>
+                Breve descripción
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 5</h2>
+            <p>
+                <img src="User2.png" width="160"
+            </p>
+            <p>
+                Breve descripción
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 6</h2>
+            <p>
+                <img src="User2.png" width="160"
+            </p>
+            <p>
+                Breve descripción
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+    </div>
+
+</asp:Content>
