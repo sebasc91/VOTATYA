@@ -1,0 +1,19 @@
+<%@ Page Title="Votación" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="VotaYa._Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="jumbotron" align="center">
+        <h1 >Candidatos</h1>
+        <p class="lead">Aquí encontrar la lista de los candidatos seleccionados</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Candidato 1</h2>
+            <p>
+                <img src="User1.png" width="160"
+            </p>
+        </div>
+    </div>
+
+</asp:Content>
