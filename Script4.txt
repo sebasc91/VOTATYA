@@ -1,0 +1,90 @@
+﻿<%@ Page Title="Votación" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reportes.aspx.cs" Inherits="VotaYa._Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="jumbotron" align="center">
+        <h1 >Reporte de votación</h1>
+        <p class="lead">Resultado de la votación</p>
+    </div>
+    <div  align="center">
+        <div class="col-md-12">
+            <h1>GANADOR</h1>
+            <p > <img src="P2.jpg" width="160" </p> 
+            <h2>Diana Marcela Ramos</h2>
+            <h1>753</h1>
+        </div>
+    </div>
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <h2>Andrea del Pilar Muñoz</h2>
+            <p>
+                <img src="P1.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h1>Resultado</h1>
+                <h1>245</h1>
+                <h2>Votos</h2> 
+        </div>
+        <div class="col-md-4">
+            <h2>Juan Manuel Lopez</h2>
+            <p>
+                <img src="P3.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h1>Resultado</h1>
+                <h1>159</h1>
+                <h2>Votos</h2>  
+        </div>
+        <div class="col-md-4">
+            <h2>Diana Marcela Ramos</h2>
+            <p>
+                <img src="P2.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h1>Resultado</h1>
+                <h1>753</h1>
+                <h2>Votos</h2> 
+        </div>
+        <div class="col-md-4">
+            <h2>Julian Perez</h2>
+            <p>
+                <img src="P4.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h1>Resultado</h1>
+                <h1>357</h1>
+                <h2>Votos</h2>   
+        </div>
+        <div class="col-md-4">
+            <h2>Alexandra Gomez</h2>
+            <p>
+                <img src="P5.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h1>Resultado</h1>
+                <h1>456</h1>
+                <h2>Votos</h2>  
+        </div>
+        <div class="col-md-4">
+            <h2>Andres Felipe Avila</h2>
+            <p>
+                <img src="P6.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h1>Resultado</h1>
+                <h1>583</h1>
+                <h2>Votos</h2> 
+        </div>
+    </div>
+    <div align="center">
+        <p>
+            <a class="btn btn-primary">Generar reporte en PDF &raquo;</a>
+        </p>
+    </div>
+</asp:Content>
