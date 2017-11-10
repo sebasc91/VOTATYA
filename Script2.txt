@@ -1,0 +1,74 @@
+﻿<%@ Page Title="Votación" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reportes.aspx.cs" Inherits="VotaYa._Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="jumbotron" align="center">
+        <h1 >Reporte de votación</h1>
+        <p class="lead">Resultado de la votación</p>
+    </div>
+    <div  align="center">
+
+    </div>
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <h2>Candidato 1</h2>
+            <p>
+                <img src="P1.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+                <h2 >Cantidad de votos</h2>
+                <h1>Resultado</h1> 
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 2</h2>
+            <p>
+                <img src="P3.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+            <h2 >Cantidad de votos</h2>
+            <h1>Resultado</h1>  
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 3</h2>
+            <p>
+                <img src="P2.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+            <h2 >Cantidad de votos</h2>
+            <h1>Resultado</h1> 
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 4</h2>
+            <p>
+                <img src="P4.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+            <h2 >Cantidad de votos</h2>
+            <h1>Resultado</h1>   
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 5</h2>
+            <p>
+                <img src="P5.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+            <h2 >Cantidad de votos</h2>
+            <h1>Resultado</h1>  
+        </div>
+        <div class="col-md-4">
+            <h2>Candidatos 6</h2>
+            <p>
+                <img src="P6.jpg" width="160"
+            </p>
+        </div>
+        <div class="pager">
+            <h2 >Cantidad de votos</h2>
+            <h1>Resultado</h1> 
+        </div>
+    </div>
+</asp:Content>
