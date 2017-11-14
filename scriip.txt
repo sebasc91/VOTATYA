@@ -1,0 +1,67 @@
+<%@ Page Title="Votación" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="VotaYa._Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="jumbotron" align="center">
+        <h1 >Candidatos</h1>
+        <p class="lead">Aquí encontrar la lista de los candidatos seleccionados</p>
+    </div>
+
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <h2>Andrea del Pilar Muñoz</h2>
+            <p>
+                <img src="P1.jpg" width="160"
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Juan Manuel Lopez</h2>
+            <p>
+                <img src="P3.jpg" width="160"
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Diana Marcela Ramos</h2>
+            <p>
+                <img src="P2.jpg" width="160"
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Julian Perez</h2>
+            <p>
+                <img src="P4.jpg" width="160"
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Alexandra Gomez</h2>
+            <p>
+                <img src="P5.jpg" width="160"
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Andres Felipe Avila</h2>
+            <p>
+                <img src="P6.jpg" width="160"
+            </p>
+            <p>
+                <a class="btn btn-default">Votar &raquo;</a>
+            </p>
+        </div>
+    </div>
+
+</asp:Content>
